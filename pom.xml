@@ -29,13 +29,13 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://nexusserver.com:8081/repository/class_pratice/</url>
-        </repository>
+            <url>http://localhost:8081/repository/maven-releases/</url>
+                  </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-          <url>http://nexusserver.com:8081/repository/class_release/</url>
-        </snapshotRepository>
+          <url>http://localhost:8081/repository/maven-snapshots/</url>
+                  </snapshotRepository>
     </distributionManagement>
   <dependencies>
   	<dependency>
